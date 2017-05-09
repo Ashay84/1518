@@ -22,6 +22,10 @@ public class Car {
 		this.fuelcap=fuel-fuelcap;
 		
 	}
+
+	public Integer getFuelcap() {
+		return fuelcap;
+	}
 }
 
 
