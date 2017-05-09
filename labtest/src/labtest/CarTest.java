@@ -18,7 +18,7 @@ public class CarTest {
 	@Test
 	public void testGetCapacity() {
 		//fail("Not yet implemented");
-		Integer cap = Mycar.getCapacity();
+		int cap = Mycar.getCapacity();
 		assertEquals(1300,cap);
 		
 	}

@@ -3,27 +3,27 @@ package labtest;
 public class Car {
 
 	String name;
-	Integer capacity;
-	Integer fuelcap;
+	int capacity;
+	int fuelcap;
 
-	public Car(String name,Integer capacity,Integer fuelcap)
+	public Car(String name,int capacity,int fuelcap)
 	{
 		this.name=name;
 		this.capacity=capacity;
 		this.fuelcap=fuelcap;
 	}
 
-	public Integer getCapacity() {
+	public int getCapacity() {
 		return capacity;
 	}
 	
-	public void lowerfuel(Integer fuel)
-	{
-		this.fuelcap=fuel-fuelcap;
+	public void lowerfuel(int fuel){
+	
+		fuelcap-=fuel;
 		
 	}
 
-	public Integer getFuelcap() {
+	public int getFuelcap() {
 		return fuelcap;
 	}
 }
